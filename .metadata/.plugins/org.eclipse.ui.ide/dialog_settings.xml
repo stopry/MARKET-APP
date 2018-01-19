@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="installedFeatures">
+		<item value="com.appcan.ide.eclipse.hdt.feature:4.0.2.201703211652"/>
+		<item value="com.aptana.feature:3.7.0.201703211652"/>
+		<item value="org.eclipse.help:1.3.0.v20110530-0844-7i7uFFmFFl8nvqbDpEqTvx"/>
+		<item value="org.eclipse.platform:3.7.2.v20120207-1839-9gF7UHPDFxGjd-PqDr2jX_4yKaumkoHTz04_q-q"/>
+		<item value="org.eclipse.rcp:3.7.2.v20120120-1424-9DB5FmnFq5JCf1UA38R-kz0S0272"/>
+		<item value="org.tigris.subversion.clientadapter.feature:1.10.1"/>
+		<item value="org.tigris.subversion.clientadapter.javahl.feature:1.8.8"/>
+		<item value="org.tigris.subversion.subclipse:1.10.4"/>
+	</list>
+	<section name="NewWizardAction">
+		<item value="com.appcan.ide.eclipse.hdt.project.NewProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="com.appcan.ide.eclipse.wizards.category.application"/>
+			<item value="org.tigris.subversion.subclipse.ui.svn"/>
+		</list>
+	</section>
+</section>

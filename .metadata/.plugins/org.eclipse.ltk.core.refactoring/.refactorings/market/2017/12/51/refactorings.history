@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="将资源“market/phone/assets”重命名为“assets-f”" description="重命名资源“assets”" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="phone/assets" name="assets-f" stamp="1513999086256" updateReferences="true"/>
+</session>

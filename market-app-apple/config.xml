@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<widget appId="20171223" channelCode="0000" height="480" pid="" sreensize="4.5" version="00.00.0000" viewmode="application" widgetId="" width="320">
+    <name>market</name>
+    <description/>
+    <author email=""/>
+    <icon src="icon.png"/>
+    <license href=""/>
+    <content encoding="utf-8" src="index.html"/>
+    <updateurl/>
+    <logserverip>192.168.19.110</logserverip>
+    <showmyspace>false</showmyspace>
+    <obfuscation>true</obfuscation>
+    <bgcolor>#fefefe</bgcolor>
+    <orientation>1</orientation>
+    <error src=""/>
+    <removeloading/>
+    <debug>true</debug>
+    <partobfuscation/>
+    <webapp>false</webapp>
+    <config desc="whiteList" type="AUTHORITY">
+        <permission info="urlSchemeWhiteList" platform="iOS">
+            <string>com.zjiayuan.game</string>
+        </permission>
+    </config>
+    <config desc="uexApplePay" type="ENTITLEMENTS">
+        <entitlement type="merchant" value="merchant.com.zjiayuan.com"/>
+    </config>
+</widget>

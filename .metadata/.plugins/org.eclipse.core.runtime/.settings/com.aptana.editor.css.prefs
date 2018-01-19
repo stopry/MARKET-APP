@@ -1,0 +1,4 @@
+com.aptana.editor.common.useGlobalDefaults=false
+completionProposalActivationCharacters=.\#\:<>-\=&'"$abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+eclipse.preferences.version=1
+spacesForTabs=true

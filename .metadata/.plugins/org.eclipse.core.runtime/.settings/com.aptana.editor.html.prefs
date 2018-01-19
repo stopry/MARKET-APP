@@ -1,0 +1,8 @@
+HTML_INDEX_VERSION=0.14
+com.aptana.editor.common.useGlobalDefaults=false
+com.aptana.editor.html.validator.HTMLParseErrorValidator_build_enabled=false
+com.aptana.editor.html.validator.HTMLParseErrorValidator_reconcile_enabled=false
+com.aptana.editor.html.validator.TidyValidator_reconcile_enabled=false
+completionProposalActivationCharacters=.\#\:<>-\=&'"$abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+eclipse.preferences.version=1
+spacesForTabs=true

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="true" key="wrap"/>
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="wholeword"/>
+		<item value="openPayPage" key="selection"/>
+		<list key="findhistory">
+			<item value="openPayPage"/>
+			<item value="MERCHANT_ID"/>
+			<item value="qInfo"/>
+			<item value="绿色家园"/>
+			<item value="fastclick.js"/>
+			<item value="fastclisk.js"/>
+			<item value="fast"/>
+			<item value="header"/>
+		</list>
+	</section>
+</section>

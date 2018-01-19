@@ -1,0 +1,4 @@
+DOCK_PERSPECTIVE_BAR=topRight
+defaultPerspectiveId=com.appcan.ide.eclipse.hdt.appcanperspective
+eclipse.preferences.version=1
+showIntro=false

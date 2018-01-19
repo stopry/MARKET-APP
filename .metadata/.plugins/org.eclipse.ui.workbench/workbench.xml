@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench version="2.0">
+<workbenchAdvisor/>
+<window height="953" maximized="true" width="1665" x="116" y="-17">
+<fastViewData fastViewLocation="1024">
+<orientation position="512" view="org.eclipse.ui.navigator.ProjectExplorer"/>
+<orientation position="512" view="com.aptana.terminal.views.terminal"/>
+<orientation position="512" view="com.aptana.browser.views.webbrowser"/>
+<orientation position="512" view="org.eclipse.ui.views.ProblemView"/>
+<orientation position="512" view="org.eclipse.ui.console.ConsoleView"/>
+<orientation position="512" view="com.appcan.ide.eclipse.hdt.logview"/>
+<orientation position="512" view="org.eclipse.ui.views.ContentOutline"/>
+</fastViewData>
+<perspectiveBar>
+<itemSize x="209"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="124" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="com.aptana.ui.globalActionSet" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.appcan.ide.eclipse.hdt.toolbars.Toolbar" itemType="typeToolBarContribution" x="291" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="53" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="55" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="198" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.xml" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.css" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.html" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.js" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1514012702361" focus="true" label="工作空间 - 资源">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor activePart="true" focus="true" id="com.aptana.editor.js" name="gold-recharge.js" partName="gold-recharge.js" path="F:/AppCanStudioPersonalV4.0/widgetapp/market-app-apple/assets/js/gold-recharge.js" title="gold-recharge.js" tooltip="market-app-apple/assets/js/gold-recharge.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/market-app-apple/assets/js/gold-recharge.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="581" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.js" name="usercenter.js" partName="usercenter.js" path="F:/AppCanStudioPersonalV4.0/widgetapp/market-app-apple/assets/js/usercenter.js" title="usercenter.js" tooltip="market-app-apple/assets/js/usercenter.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/market-app-apple/assets/js/usercenter.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3689" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.html" name="user-center.html" partName="user-center.html" path="F:/AppCanStudioPersonalV4.0/widgetapp/market-app-apple/html/user-center.html" title="user-center.html" tooltip="market-app-apple/html/user-center.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/market-app-apple/html/user-center.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2657" selectionTopPixel="603"/>
+</editor>
+<editor id="com.aptana.editor.js" name="global.js" partName="global.js | global" path="F:/AppCanStudioPersonalV4.0/widgetapp/market-app-apple/assets/js/global/global.js" title="global.js | global" tooltip="market-app-apple/assets/js/global/global.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/market-app-apple/assets/js/global/global.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="21" selectionTopPixel="7231"/>
+</editor>
+<editor id="com.aptana.editor.js" name="global.js" partName="global.js | js" path="F:/AppCanStudioPersonalV4.0/widgetapp/market-app-apple/assets/js/global.js" title="global.js | js" tooltip="market-app-apple/assets/js/global.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/market-app-apple/assets/js/global.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6338" selectionTopPixel="2945"/>
+</editor>
+<editor id="com.aptana.editor.html" name="gold-recharge.html" partName="gold-recharge.html" path="F:/AppCanStudioPersonalV4.0/widgetapp/market-app-apple/html/gold-recharge.html" title="gold-recharge.html" tooltip="market-app-apple/html/gold-recharge.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/market-app-apple/html/gold-recharge.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2194" selectionTopPixel="751"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="项目资源管理器">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="com.aptana.browser.views.webbrowser" partName="实时预览">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="控制台">
+<viewState/>
+</view>
+<view id="com.appcan.ide.eclipse.hdt.logview" partName="AppCan Log">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="大纲">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="com.aptana.editor.js" activePerspective="org.eclipse.ui.resourcePerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.appcan.ide.eclipse.hdt.perspectives.AppCanPerspectiveFactory" id="com.appcan.ide.eclipse.hdt.appcanperspective" label="AppCan"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<show_view_action id="com.appcan.ide.eclipse.hdt.logview"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<new_wizard_action id="com.appcan.ide.eclipse.editors.wizards.NewhtmlWizard"/>
+<new_wizard_action id="com.appcan.ide.eclipse.hdt.project.NewProjectWizard"/>
+<new_wizard_action id="com.appcan.ide.eclipse.hdt.project.NewMasProjectWizard"/>
+<new_wizard_action id="com.appcan.ide.eclipse.editors.wizards.NewInterfaceWizard"/>
+<new_wizard_action id="com.appcan.ide.eclipse.hdt.project.NewMasServiceWizard"/>
+<new_wizard_action id="com.appcan.ide.eclipse.hdt.file.NewJavaScriptWizard"/>
+<new_wizard_action id="com.appcan.ide.eclipse.hdt.file.NewCssWizard"/>
+<new_wizard_action id="com.appcan.ide.eclipse.hdt.file.NewPHPWizard"/>
+<new_wizard_action id="com.appcan.ide.eclipse.hdt.file.NewJsonWizard"/>
+<new_wizard_action id="com.appcan.ide.eclipse.hdt.file.NewXmlWizard"/>
+<new_wizard_action id="com.appcan.ide.eclipse.hdt.file.NewXsltWizard"/>
+<new_wizard_action id="com.appcan.ide.eclipse.hdt.file.NewTxtWizard"/>
+<new_wizard_action id="com.appcan.ide.eclipse.hdt.file.NewHtmlWizard"/>
+<perspective_action id="com.appcan.ide.eclipse.hdt.appcanperspective"/>
+<hide_menu_item_id id="project"/>
+<hide_menu_item_id id="org.eclipse.ui.help.aboutAction"/>
+<hide_menu_item_id id="org.eclipse.ui.help.helpContents"/>
+<hide_menu_item_id id="com.aptana.source.menu"/>
+<hide_menu_item_id id="org.eclipse.ui.file.openWorkspace"/>
+<hide_menu_item_id id="org.eclipse.ui.help.quickStartAction"/>
+<hide_menu_item_id id="org.eclipse.ui.window.newWindow"/>
+<hide_menu_item_id id="org.eclipse.ui.run"/>
+<hide_menu_item_id id="org.eclipse.ui.help.dynamicHelp"/>
+<hide_menu_item_id id="org.eclipse.ui.help.helpSearch"/>
+<hide_toolbar_item_id id="org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar"/>
+<hide_toolbar_item_id id="com.aptana.ui.globalActionSet"/>
+<hide_toolbar_item_id id="org.eclipse.debug.internal.ui.actions.DebugDropDownAction"/>
+<hide_toolbar_item_id id="com.aptana.preview.commands.showPreview"/>
+<hide_toolbar_item_id id="com.aptana.theme.command.open_pref"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowWhitespaceCharacters"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.edit.text.java.toggleBreadcrumb"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.navigate.open.type"/>
+<hide_toolbar_item_id id="com.aptana.editor.php.openType.command"/>
+<hide_toolbar_item_id id="com.aptana.terminal.commands.openTerminal"/>
+<hide_toolbar_item_id id="com.aptana.editor.common.commands.toggleOutline"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.launchActionSet"/>
+<hide_toolbar_item_id id="org.eclipse.ui.project.buildAll"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="com.aptana.explorer.commands.toggleAppExplorer"/>
+<hide_toolbar_item_id id="com.aptana.js.debug.ui.actions.ToggleBreakpoint"/>
+<hide_toolbar_item_id id="org.eclipse.ui.WorkingSetActionSet"/>
+<hide_toolbar_item_id id="com.aptana.js.debug.ui.actions.openURL"/>
+<hide_toolbar_item_id id="com.aptana.editor.common.toggleMarkOccurrences"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.edit.text.java.toggleMarkOccurrences"/>
+<hide_toolbar_item_id id="com.aptana.portal.ui.command.openStartPage"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleBlockSelectionMode"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.actionSet.presentation"/>
+<hide_toolbar_item_id id="org.eclipse.debug.internal.ui.actions.ProfileDropDownAction"/>
+<hide_toolbar_item_id id="org.eclipse.debug.internal.ui.actions.RunDropDownAction"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="com.appcan.ide.eclipse.hdt.logview"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<fastViewBars/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.ui.internal.ViewStack@14372f5">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="大纲"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="topLeft" ratio="0.16657937" ratioLeft="318" ratioRight="1591" relationship="2" relative="org.eclipse.ui.internal.ViewStack@14372f5">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1074" ratioRight="358" relationship="2" relative="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@4c83b8" ratio="0.23834468" ratioLeft="455" ratioRight="1454" relationship="2" relative="topLeft">&#x0A;<folder appearance="2" expanded="0">&#x0A;<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@362e4f" ratio="0.7493369" ratioLeft="565" ratioRight="189" relationship="4" relative="org.eclipse.ui.internal.ViewStack@4c83b8">&#x0A;<folder activePageID="com.appcan.ide.eclipse.hdt.logview" appearance="2" expanded="2">&#x0A;<page content="com.appcan.ide.eclipse.hdt.logview" label="AppCan Log"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="控制台"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@cc58e1" ratio="0.835516" ratioLeft="1595" ratioRight="314" relationship="2" relative="org.eclipse.ui.internal.ViewStack@4c83b8">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="com.aptana.browser.views.webbrowser" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="186" ratioRight="558" relationship="4" relative="org.eclipse.ui.internal.ViewStack@4c83b8"/>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.debug.internal.ui.DebugPerspectiveFactory" id="org.eclipse.debug.ui.DebugPerspective" label="调试"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="com.aptana.terminal.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<show_view_action id="org.eclipse.debug.ui.DebugView"/>
+<show_view_action id="org.eclipse.debug.ui.VariableView"/>
+<show_view_action id="org.eclipse.debug.ui.BreakpointView"/>
+<show_view_action id="org.eclipse.debug.ui.ExpressionView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<new_wizard_action id="com.appcan.ide.eclipse.editors.wizards.NewhtmlWizard"/>
+<new_wizard_action id="com.appcan.ide.eclipse.editors.wizards.NewMWizard"/>
+<new_wizard_action id="com.appcan.ide.eclipse.hdt.project.NewProjectWizard"/>
+<new_wizard_action id="com.appcan.ide.eclipse.hdt.project.NewMasProjectWizard"/>
+<new_wizard_action id="com.appcan.ide.eclipse.editors.wizards.NewInterfaceWizard"/>
+<new_wizard_action id="com.appcan.ide.eclipse.hdt.project.NewMasServiceWizard"/>
+<new_wizard_action id="com.appcan.ide.eclipse.hdt.file.NewJavaScriptWizard"/>
+<new_wizard_action id="com.appcan.ide.eclipse.hdt.file.NewCssWizard"/>
+<new_wizard_action id="com.appcan.ide.eclipse.hdt.file.NewPHPWizard"/>
+<new_wizard_action id="com.appcan.ide.eclipse.hdt.file.NewJsonWizard"/>
+<new_wizard_action id="com.appcan.ide.eclipse.hdt.file.NewXmlWizard"/>
+<new_wizard_action id="com.appcan.ide.eclipse.hdt.file.NewXsltWizard"/>
+<new_wizard_action id="com.appcan.ide.eclipse.hdt.file.NewTxtWizard"/>
+<new_wizard_action id="com.appcan.ide.eclipse.hdt.file.NewHtmlWizard"/>
+<hide_menu_item_id id="project"/>
+<hide_menu_item_id id="org.eclipse.ui.help.helpContents"/>
+<hide_menu_item_id id="org.eclipse.ui.help.aboutAction"/>
+<hide_menu_item_id id="com.aptana.source.menu"/>
+<hide_menu_item_id id="org.eclipse.ui.help.quickStartAction"/>
+<hide_menu_item_id id="org.eclipse.ui.window.newWindow"/>
+<hide_menu_item_id id="org.eclipse.ui.run"/>
+<hide_menu_item_id id="org.eclipse.ui.help.helpSearch"/>
+<hide_menu_item_id id="org.eclipse.ui.help.dynamicHelp"/>
+<hide_toolbar_item_id id="org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar"/>
+<hide_toolbar_item_id id="com.aptana.ui.globalActionSet"/>
+<hide_toolbar_item_id id="org.eclipse.debug.internal.ui.actions.DebugDropDownAction"/>
+<hide_toolbar_item_id id="com.aptana.preview.commands.showPreview"/>
+<hide_toolbar_item_id id="com.aptana.theme.command.open_pref"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowWhitespaceCharacters"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.navigate.open.type"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.edit.text.java.toggleBreadcrumb"/>
+<hide_toolbar_item_id id="com.aptana.editor.php.openType.command"/>
+<hide_toolbar_item_id id="com.aptana.terminal.commands.openTerminal"/>
+<hide_toolbar_item_id id="com.aptana.editor.common.commands.toggleOutline"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.launchActionSet"/>
+<hide_toolbar_item_id id="org.eclipse.ui.project.buildAll"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="com.aptana.explorer.commands.toggleAppExplorer"/>
+<hide_toolbar_item_id id="com.aptana.js.debug.ui.actions.ToggleBreakpoint"/>
+<hide_toolbar_item_id id="org.eclipse.ui.WorkingSetActionSet"/>
+<hide_toolbar_item_id id="com.aptana.js.debug.ui.actions.openURL"/>
+<hide_toolbar_item_id id="com.aptana.editor.common.toggleMarkOccurrences"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.edit.text.java.toggleMarkOccurrences"/>
+<hide_toolbar_item_id id="com.aptana.portal.ui.command.openStartPage"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleBlockSelectionMode"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.actionSet.presentation"/>
+<hide_toolbar_item_id id="org.eclipse.debug.internal.ui.actions.ProfileDropDownAction"/>
+<hide_toolbar_item_id id="org.eclipse.debug.internal.ui.actions.RunDropDownAction"/>
+<fastViewBars/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.7491961" ratioLeft="699" ratioRight="234" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.44921315" ratioLeft="314" ratioRight="385" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="956" ratioRight="956" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="资源"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.views.BookmarkView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="com.appcan.ide.eclipse.editors.wizards.NewhtmlWizard"/>
+<new_wizard_action id="com.appcan.ide.eclipse.editors.wizards.NewMWizard"/>
+<new_wizard_action id="com.appcan.ide.eclipse.hdt.project.NewProjectWizard"/>
+<new_wizard_action id="com.appcan.ide.eclipse.hdt.project.NewMasProjectWizard"/>
+<new_wizard_action id="com.appcan.ide.eclipse.editors.wizards.NewInterfaceWizard"/>
+<new_wizard_action id="com.appcan.ide.eclipse.hdt.project.NewMasServiceWizard"/>
+<new_wizard_action id="com.appcan.ide.eclipse.hdt.file.NewJavaScriptWizard"/>
+<new_wizard_action id="com.appcan.ide.eclipse.hdt.file.NewCssWizard"/>
+<new_wizard_action id="com.appcan.ide.eclipse.hdt.file.NewPHPWizard"/>
+<new_wizard_action id="com.appcan.ide.eclipse.hdt.file.NewJsonWizard"/>
+<new_wizard_action id="com.appcan.ide.eclipse.hdt.file.NewXmlWizard"/>
+<new_wizard_action id="com.appcan.ide.eclipse.hdt.file.NewXsltWizard"/>
+<new_wizard_action id="com.appcan.ide.eclipse.hdt.file.NewTxtWizard"/>
+<new_wizard_action id="com.appcan.ide.eclipse.hdt.file.NewHtmlWizard"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<perspective_action id="org.eclipse.team.ui.TeamSynchronizingPerspective"/>
+<perspective_action id="org.tigris.subversion.subclipse.ui.svnPerspective"/>
+<hide_menu_item_id id="project"/>
+<hide_menu_item_id id="org.eclipse.ui.help.aboutAction"/>
+<hide_menu_item_id id="org.eclipse.ui.help.helpContents"/>
+<hide_menu_item_id id="com.aptana.source.menu"/>
+<hide_menu_item_id id="org.eclipse.ui.help.quickStartAction"/>
+<hide_menu_item_id id="org.eclipse.ui.window.newWindow"/>
+<hide_menu_item_id id="org.eclipse.ui.run"/>
+<hide_menu_item_id id="org.eclipse.ui.help.dynamicHelp"/>
+<hide_menu_item_id id="org.eclipse.ui.help.helpSearch"/>
+<hide_toolbar_item_id id="org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar"/>
+<hide_toolbar_item_id id="com.aptana.ui.globalActionSet"/>
+<hide_toolbar_item_id id="org.eclipse.debug.internal.ui.actions.DebugDropDownAction"/>
+<hide_toolbar_item_id id="com.aptana.preview.commands.showPreview"/>
+<hide_toolbar_item_id id="com.aptana.theme.command.open_pref"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowWhitespaceCharacters"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.edit.text.java.toggleBreadcrumb"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.navigate.open.type"/>
+<hide_toolbar_item_id id="com.aptana.editor.php.openType.command"/>
+<hide_toolbar_item_id id="com.aptana.terminal.commands.openTerminal"/>
+<hide_toolbar_item_id id="com.aptana.editor.common.commands.toggleOutline"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.launchActionSet"/>
+<hide_toolbar_item_id id="org.eclipse.ui.project.buildAll"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="com.aptana.explorer.commands.toggleAppExplorer"/>
+<hide_toolbar_item_id id="com.aptana.js.debug.ui.actions.ToggleBreakpoint"/>
+<hide_toolbar_item_id id="org.eclipse.ui.WorkingSetActionSet"/>
+<hide_toolbar_item_id id="com.aptana.js.debug.ui.actions.openURL"/>
+<hide_toolbar_item_id id="com.aptana.editor.common.toggleMarkOccurrences"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.edit.text.java.toggleMarkOccurrences"/>
+<hide_toolbar_item_id id="com.aptana.portal.ui.command.openStartPage"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleBlockSelectionMode"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.actionSet.presentation"/>
+<hide_toolbar_item_id id="org.eclipse.debug.internal.ui.actions.ProfileDropDownAction"/>
+<hide_toolbar_item_id id="org.eclipse.debug.internal.ui.actions.RunDropDownAction"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="com.aptana.browser.views.webbrowser"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<fastViewBars>
+<fastViewBar fastViewLocation="16384" id="bottomLeft" orientation="256" selectedTabId="org.eclipse.ui.views.ContentOutline" style="0">
+<fastViews>
+<view id="org.eclipse.ui.views.ContentOutline" ratio="0.2993763"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="项目资源管理器"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.tigris.subversion.subclipse.ui.repository.RepositoriesView" label="LabelNotFound"/>
+<page content="org.tigris.subversion.subclipse.ui.annotations.AnnotateView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.2130712" ratioLeft="401" ratioRight="1481" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottomRight" ratio="0.659164" ratioLeft="615" ratioRight="318" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
+<page content="org.tigris.subversion.subclipse.ui.history.HistoryView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@62ffb" ratio="0.7253045" ratioLeft="1072" ratioRight="406" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="com.aptana.browser.views.webbrowser" appearance="2" expanded="2">
+<page content="com.aptana.browser.views.webbrowser" label="实时预览"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="控制台"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="bottomLeft" ratio="0.4994641" ratioLeft="466" ratioRight="467" relationship="4" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/market-app-apple/assets/js/gold-recharge.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/market-app-apple/assets/js/global/global.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/market-app-apple/assets/js/global.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/market-app-apple/assets/js/usercenter.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/market-app-apple/html/user-center.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/market-app-apple/html/gold-recharge.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/market-app-apple/assets/js/cahs-record.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/market-app-apple/assets/js/cash-record-detail.js"/>
+</editors>
+<item historyLabel="user-center.html" index="4">
+<position info="not_deleted" x="2350" y="0"/>
+</item>
+<item historyLabel="global.js | js" index="2">
+<position info="not_deleted" x="52" y="0"/>
+</item>
+<item historyLabel="gold-recharge.html" index="5">
+<position info="not_deleted" x="2763" y="0"/>
+</item>
+<item historyLabel="user-center.html" index="4">
+<position info="not_deleted" x="2657" y="0"/>
+</item>
+<item historyLabel="gold-recharge.js" index="0">
+<position info="not_deleted" x="578" y="0"/>
+</item>
+<item historyLabel="gold-recharge.html" index="5">
+<position info="not_deleted" x="3262" y="0"/>
+</item>
+<item historyLabel="gold-recharge.js" index="0">
+<position info="not_deleted" x="2697" y="0"/>
+</item>
+<item historyLabel="gold-recharge.html" index="5">
+<position info="not_deleted" x="3262" y="0"/>
+</item>
+<item historyLabel="gold-recharge.js" index="0">
+<position info="not_deleted" x="2638" y="0"/>
+</item>
+<item historyLabel="user-center.html" index="4">
+<position info="not_deleted" x="2657" y="0"/>
+</item>
+<item historyLabel="gold-recharge.html" index="5">
+<position info="not_deleted" x="3262" y="0"/>
+</item>
+<item historyLabel="global.js | js" index="2">
+<position info="not_deleted" x="52" y="0"/>
+</item>
+<item historyLabel="gold-recharge.js" index="0">
+<position info="not_deleted" x="2596" y="0"/>
+</item>
+<item historyLabel="gold-recharge.html" index="5">
+<position info="not_deleted" x="3262" y="0"/>
+</item>
+<item historyLabel="gold-recharge.js" index="0">
+<position info="not_deleted" x="2894" y="0"/>
+</item>
+<item historyLabel="global.js | js" index="2">
+<position info="not_deleted" x="5261" y="4"/>
+</item>
+<item historyLabel="global.js | global" index="1">
+<position info="not_deleted" x="21" y="0"/>
+</item>
+<item historyLabel="user-center.html" index="4">
+<position info="not_deleted" x="2657" y="0"/>
+</item>
+<item historyLabel="global.js | js" index="2">
+<position info="not_deleted" x="5261" y="4"/>
+</item>
+<item historyLabel="gold-recharge.js" index="0">
+<position info="not_deleted" x="2105" y="0"/>
+</item>
+<item historyLabel="gold-recharge.html" index="5">
+<position info="not_deleted" x="3262" y="0"/>
+</item>
+<item historyLabel="gold-recharge.js" index="0">
+<position info="not_deleted" x="2105" y="0"/>
+</item>
+<item historyLabel="gold-recharge.html" index="5">
+<position info="not_deleted" x="2194" y="0"/>
+</item>
+<item historyLabel="gold-recharge.js" index="0">
+<position info="not_deleted" x="1376" y="0"/>
+</item>
+<item historyLabel="usercenter.js" index="3">
+<position info="not_deleted" x="3689" y="0"/>
+</item>
+<item historyLabel="gold-recharge.js" index="0">
+<position info="not_deleted" x="1376" y="0"/>
+</item>
+<item historyLabel="gold-recharge.js" index="0">
+<position info="not_deleted" x="2764" y="0"/>
+</item>
+<item historyLabel="global.js | js" index="2">
+<position info="not_deleted" x="5261" y="4"/>
+</item>
+<item historyLabel="global.js | global" index="1">
+<position info="not_deleted" x="21" y="0"/>
+</item>
+<item historyLabel="gold-recharge.js" index="0">
+<position info="not_deleted" x="2873" y="0"/>
+</item>
+<item historyLabel="cahs-record.js" index="6">
+<position info="not_deleted" x="984" y="0"/>
+</item>
+<item historyLabel="cash-record-detail.js" index="7">
+<position info="not_deleted" x="312" y="0"/>
+</item>
+<item historyLabel="gold-recharge.html" index="5">
+<position info="not_deleted" x="2194" y="0"/>
+</item>
+<item historyLabel="global.js | js" index="2">
+<position info="not_deleted" x="5261" y="4"/>
+</item>
+<item historyLabel="gold-recharge.js" index="0">
+<position info="not_deleted" x="3060" y="0"/>
+</item>
+<item historyLabel="global.js | js" index="2">
+<position info="not_deleted" x="5261" y="4"/>
+</item>
+<item historyLabel="global.js | js" index="2">
+<position info="not_deleted" x="6338" y="0"/>
+</item>
+<item historyLabel="global.js | js" index="2">
+<position info="not_deleted" x="6338" y="0"/>
+</item>
+<item historyLabel="gold-recharge.html" index="5">
+<position info="not_deleted" x="2194" y="0"/>
+</item>
+<item historyLabel="gold-recharge.js" index="0">
+<position info="not_deleted" x="3060" y="0"/>
+</item>
+<item historyLabel="gold-recharge.js" index="0">
+<position info="not_deleted" x="2873" y="0"/>
+</item>
+<item historyLabel="gold-recharge.js" index="0">
+<position/>
+</item>
+<item historyLabel="gold-recharge.js" index="0">
+<position/>
+</item>
+<item historyLabel="gold-recharge.js" index="0">
+<position/>
+</item>
+<item historyLabel="gold-recharge.js" index="0">
+<position/>
+</item>
+<item historyLabel="gold-recharge.js" index="0">
+<position/>
+</item>
+<item historyLabel="gold-recharge.js" index="0">
+<position info="not_deleted" x="2766" y="199"/>
+</item>
+<item historyLabel="gold-recharge.js" index="0">
+<position info="not_deleted" x="2443" y="0"/>
+</item>
+<item historyLabel="gold-recharge.js" index="0">
+<position info="not_deleted" x="2549" y="0"/>
+</item>
+<item active="true" historyLabel="gold-recharge.js" index="0">
+<position info="not_deleted" x="2525" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="bottomLeft"/>
+</trimArea>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="com.appcelerator.ui.trim"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="cash-record-detail.js" tooltip="market-app-apple/assets/js/cash-record-detail.js">
+<persistable path="/market-app-apple/assets/js/cash-record-detail.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="cahs-record.js" tooltip="market-app-apple/assets/js/cahs-record.js">
+<persistable path="/market-app-apple/assets/js/cahs-record.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="gold-recharge.html" tooltip="market-app-apple/html/gold-recharge.html">
+<persistable path="/market-app-apple/html/gold-recharge.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="global.js" tooltip="market-app-apple/assets/js/global.js">
+<persistable path="/market-app-apple/assets/js/global.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="global.js" tooltip="market-app-apple/assets/js/global/global.js">
+<persistable path="/market-app-apple/assets/js/global/global.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="user-center.html" tooltip="market-app-apple/html/user-center.html">
+<persistable path="/market-app-apple/html/user-center.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="usercenter.js" tooltip="market-app-apple/assets/js/usercenter.js">
+<persistable path="/market-app-apple/assets/js/usercenter.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="market-app-apple/index.html">
+<persistable path="/market-app-apple/index.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="index.js" tooltip="market-app-apple/assets/js/index.js">
+<persistable path="/market-app-apple/assets/js/index.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="uexApplePay.js" tooltip="appcanPlugin/phone/case/js/uexApplePay.js">
+<persistable path="/appcanPlugin/phone/case/js/uexApplePay.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="promote-award.js" tooltip="market-app-apple/assets/js/promote-award.js">
+<persistable path="/market-app-apple/assets/js/promote-award.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.appcan.ide.eclipse.editors.manifest.Editor" name="config.xml" tooltip="market-app-android/config.xml">
+<persistable path="/market-app-android/config.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.appcan.ide.eclipse.editors.manifest.Editor" name="config.xml" tooltip="market-app-apple/config.xml">
+<persistable path="/market-app-apple/config.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="gold-recharge.js" tooltip="market-app-apple/assets/js/gold-recharge.js">
+<persistable path="/market-app-apple/assets/js/gold-recharge.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="unittest.html" tooltip="appcanPlugin/phone/case/unittest.html">
+<persistable path="/appcanPlugin/phone/case/unittest.html"/>
+</file>
+</mruList>
+</workbench>

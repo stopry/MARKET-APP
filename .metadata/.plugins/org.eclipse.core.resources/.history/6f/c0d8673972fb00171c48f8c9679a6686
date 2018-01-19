@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Z家园</title>
+  <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1"/>
+  <meta name="description" content="Z家园，2017最火爆种植游戏。" />
+  <meta name="keywords" content="Z家园|环保|绿色|种树|农场|种植" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="renderer" content="webkit"/>
+  <meta name="force-rendering" content="webkit"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta name="full-screen" content="yes"/>
+  <meta name="x5-fullscreen" content="true"/>
+  <meta name="360-fullscreen" content="true"/>
+  <meta name="screen-orientation" content=""/>
+  <meta name="x5-orientation" content="">
+  <meta name="browsermode" content="application">
+  <meta name="x5-page-mode" content="app">
+  <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+  <script src="./assets/js/plugin/flexible.css.js"></script>
+  <script src="./assets/js/plugin/flexible.ios.js"></script>
+  <link href="./assets/css/swiper.css" rel="stylesheet">
+  <link href="./assets/css/reset.css" rel="stylesheet">
+  <link href="./assets/css/global.css" rel="stylesheet">
+</head>
+<body>
+  <div class="indexBanner swiper-container">
+    <div class="swiper-wrapper" id="id="swiper-wrapper"">
+      
+    </div>
+    <div class="swiper-pagination indexSwiperPage"></div>
+  </div>
+  <ul class="hqList" id="ul">
+
+  </ul>
+  <div class="ziXunList">
+    <div class="ziXunHeader">
+      <span class="headerItem active fl feedbtn">
+                            资讯
+        <div class="borVir"></div>
+      </span>
+      <span class="headerItem fr feedbtn">
+        行情
+        <div class="borVir"></div>
+      </span>
+    </div>
+    <div class="ziXunCon">
+      <ul class="newList ziXun active">
+        <li class="newItme feedbtn" onclick="openLocal('html/news-detail.html')">
+          <div class="itemLeft borBotLight">
+            一堆资讯一堆资讯一堆资讯一堆资讯一堆资讯一堆资讯一堆资讯
+          </div>
+          <div class="itemRight">
+            06/21
+          </div>
+        </li>
+      </ul>
+      <ul class="newList new">
+        <li class="newItme feedbtn" onclick="openLocal('html/news-detail.html')">
+          <div class="itemLeft borBotLight">
+            行情
+          </div>
+          <div class="itemRight">
+            06/21
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer">
+    <a class="navItem active feedbtn">
+      <div class="navIcon">
+
+      </div>
+      <p>资讯</p>
+    </a>
+    <!-- href="./html/quotation.html"  -->
+    <a onclick="openLocal('html/quotation.html')" class="navItem feedbtn">
+      <div class="navIcon">
+
+      </div>
+      <p>行情</p>
+    </a>
+    <a  onclick="openLocal('html/market.html')" class="navItem feedbtn">
+      <div class="navIcon">
+
+      </div>
+      <p>市场</p>
+    </a>
+    <a  onclick="openLocal('html/user-center.html',1)" class="navItem feedbtn">
+      <div class="navIcon">
+
+      </div>
+      <p>个人</p>
+    </a>
+  </div>
+  <!--加载小动画-->
+  <div class="spinner" id="spinner">
+    <div class="rect1"></div>
+    <div class="rect2"></div>
+    <div class="rect3"></div>
+    <div class="rect4"></div>
+    <div class="rect5"></div>
+  </div>
+  <script src="./assets/js/lib/zepto.js"></script>
+  <script src="./assets/js/plugin/layer/layer.js"></script>
+  <script src="./assets/js/plugin/swiper.js"></script>
+  <script src="./assets/js/myModule.js"></script>
+  <script src="./assets/js/global/global.js"></script>
+  <script src="./assets/js/global.js"></script>
+  <script src="./assets/js/StorageUtil.js"></script>
+  <script src="./assets/js/index.js"></script>
+  <script>
+  
+  localStorage.removeItem('isFromGame');
+  appcan.ready(function(){
+     
+      
+      //根据启动参数打开对应页面
+      /*
+       * para 为url查询字符串格式 
+       * 如： "token=gfgfgf&likn=gfggfg"
+       * 
+       * */
+        function openPageByPara(para){
+          //拆分字符串为两个数组
+          var paraArr = para.split('&');//['token=gfgfgf','likn=gfggfg']
+          
+          var link = paraArr[1].split('=')[1];//页面名称
+          var token = decodeURI(paraArr[0].split('=')[1]);//token
+          token = token.split(" ")[1];
+           
+          localStorage.setItem("AUTHORIZATION",token);//设置本地token
+           
+          if(link==="market"){//市场页面
+              var id = paraArr[2].split('=')[1];//绿能id
+              localStorage.setItem("TRAN_PRO_ID",id);
+              openLocal("html/market.html");
+          }else if(link==="listed-market"){//挂牌页面
+              openLocal("html/listed-market.html");
+          }else if(link==="gold-recharge"){//充值页面  游戏
+              openPayPage();
+              //openLocal("html/gold-recharge.html");
+          }else if(link==="quotation"){//行情页面
+              openLocal("html/quotation.html");
+          }else if(link==="user-center"){
+              openLocal("html/user-center.html");
+          }
+       }
+       
+       //检测手机是否安装了z家园游戏 (Android);
+      function isInstallZjiyuan(){
+          var json = {
+              appData:'com.zjiayuan.game'
+          };
+          json = JSON.stringify(json);
+         var isInstall = uexWidget.isAppInstalled(json);//true为已安装 其他为false
+         if(isInstall){
+             localStorage.setItem('isInstall','1');
+         }else{
+             localStorage.removeItem('isInstall');
+         }
+          
+      }
+      isInstallZjiyuan();
+       
+      uexWidget.onLoadByOtherApp=function(json){
+         
+        localStorage.setItem('isFromGame','1');
+        initBackGameBtn();
+          
+        var para = JSON.parse(json).key;
+        openPageByPara(para);
+      }
+      
+      $("#spinner").remove();
+      
+  })
+  </script>
+</body>
+</html>

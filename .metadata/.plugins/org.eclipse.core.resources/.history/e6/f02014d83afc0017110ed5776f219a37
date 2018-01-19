@@ -1,0 +1,221 @@
+var gold_rch_uid = null;
+function loadInfo() {
+    var lock = Lock.createNew();
+    if (!lock.getLock()) {
+        return;
+    }
+    ajaxHelper.get(getUrl('user/getUserInfo'), {}, function (ret) {
+        if (ret.success) {
+            var userInfo = ret.obj.userInfo;
+            gold_rch_uid = userInfo.id;
+            localStorage.setItem('userInfo', JSON.stringify(userInfo));
+            userInfo = JSON.parse(localStorage.getItem('userInfo'));
+            
+        } else {
+            showTips('加载信息异常',"error");
+        }
+        lock.release();
+    });
+}
+
+$(function () {
+    var money = 50;//默认金额50
+    var payType = 1;//默认支付方式快捷支付 input输入支付为2
+    var payChannel = 1;//默认支付渠道 微信 1 2 3 微信 支付宝 银联
+    var _index = 0;//默认快捷支付选择的dom index
+
+    // 快捷支付选择效果
+    $(".quickPayBox .payItem").click(function () {
+        payType = 1;
+        $(this).addClass('active').siblings(".payItem").removeClass('active');
+        var idx = $(this).index();
+        var _money = $(this).data("val");
+        money = _money;
+        $("#rchNum").val(money);
+    });
+    //支付渠道选择效果
+    $(".thirdPay .thirdItem").click(function () {
+        $(this).addClass('active').siblings(".thirdItem").removeClass('active');
+        var _idx = $(this).index();
+        payChannel = _idx+1;
+    });
+    // 输入框事件
+    $(".rchNum").focus(function () {//输入框获得焦点事件
+        $(".quickPayBox .payItem").removeClass('active');
+    }).blur(function () {//输入框是去焦点事件
+        var iptMoney = $.trim($(this).val());
+        if(!iptMoney||iptMoney<=0){
+            $(this).val('');
+            $(".quickPayBox .payItem").eq(_index).addClass('active').siblings(".payItem").removeClass('active');
+        }else{
+            money = iptMoney;
+            payType = 2;
+        }
+    });
+    
+    $("#next").click(function () {
+        money = $.trim($('#rchNum').val());
+        if(!money){
+            showTips('请输入充值金额','warm');
+        }else if(money<10){
+            showTips('充值金额不能小于十','warm');
+        }
+        applePay(money,gold_rch_uid);
+    })
+    
+});
+
+appcan.ready(function(){
+      init();
+  })
+  
+
+
+function init(){
+       loadInfo();
+}
+
+
+
+
+    //applePay 代码
+
+    //开发者商用id
+    var MERCHANT_ID = "merchant.com.zjiayuan.com";
+    //var MERCHANT_ID = "merchant.com.zywx.devTest";
+    //是否可以使用applepay
+    var canUseApplePay = false;
+
+ 
+//主方法
+function applePay(rchMoney,_uid){
+    
+    //验证是否可以使用applepay true->可以   false->不可以
+    //var result = canMakePayment();
+    //if(!result) return;
+    
+    //获取orderInfo
+    //获取流水号接口
+    var subData = {
+      "clientId": "2",
+      "openid": "",
+      "payAmt":rchMoney,
+      "payChannel": "3",
+      "payType": "8",
+      "uid": _uid=10086
+    }
+    console.log(subData)
+    ajaxHelper.get("http://192.168.19.47:8084/pay/pay/pay",subData,function(res){
+        //res订单号
+        if(!res.success){
+            showTips('获取流水号失败','error');
+        }else{
+            startChinaUnionPay(res.obj);
+        }
+        //startChinaUnionPay(res);
+        //startChinaUnionPay('833380024305105950200');//模拟流水号
+    })
+    
+    //支付结束后的监听
+    //银联applepay支付结束的监听
+    /*info->{}
+     *@result 0-支付成功 1-支付失败 2-用户取消支付 3-支付结果不确定
+     *@errorInfo 支付失败时会通过此字段返回失败的原因
+     *@otherInfo 支付的额外信息会通过此字段返回, 此字段由银联SDK直接提供,请参考银联的相关文档 
+     * */
+    /*
+    uexApplePay.onChinaUnionPayFinish = function(info){
+        alert(info);
+        var result = JSON.parse(info);
+        if(result.result==0){
+            showAlert('支付成功');
+            $("#rchNum").val('');
+        }else{
+            if(result.errorInfo){
+                showAlert(result.errorInfo);
+            }
+        }
+    }
+    */
+}
+    
+    //验证是否可以使用
+    function canMakePayment(){
+        var params = {
+            networks:["ChinaUnionPay"]
+        };
+        var result = uexApplePay.canMakePayment(JSON.stringify(params));
+        //result返回值
+        /*
+         * 0 可以进行ApplePay支付
+         * 1 系统不支持,uexApplePay插件需要iOS 9.2+的系统 
+         * 2 设备不支持
+         * 3 账号不支持
+         * */
+        if(result==1){
+            showAlert('当前系统支持,请将手机系统升级至 IOS 9.2+');
+        }else if(result==2){
+            showAlert('你的设备不支持，请使用iPhone6以上机型（包括iPhone6）。');
+        }else if(result==3){
+            showAlert('您的账号不支持applePay,您可能未在Wallet中绑定指定支付网络的银行卡或者您的设备处于锁定或家长监控状态下。');
+        }
+        canUseApplePay = result==0;
+        return canUseApplePay;
+    }
+    
+    
+    //调用银联applepay支付
+    /*params->{}
+     *@orderInfo 银联提供的交易流水号
+     *@mode 测试类型  "00" "01" 正式环境 测试环境
+     *@merchantIdentifier 在苹果开发者中心配置的merchant证书的ID
+     * */
+    function startChinaUnionPay(param){
+        var params = {
+            merchantIdentifier:MERCHANT_ID,
+            orderInfo:param+"",
+            mode:"01" 
+        };
+        var data = JSON.stringify(params);
+        
+        /**
+         *@result 
+         * 0 ->支付成功
+         * 1 -> 传入的参数有误 
+         * 2 -> 设备或者系统不支持
+         * 3 -> 其他未知错误
+         * 
+         */
+        
+        var result = uexApplePay.startChinaUnionPay(data);
+        
+        if(result==1){
+            showAlert('失败！传入的参数有误');
+        }else if(result==2){
+            showAlert('失败！设备或者系统不支持');
+        }else if(result==3){
+            showAlert('失败！未知错误。');
+        }
+        
+        return result == 0;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
